@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RomanceFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="222dp"
+        android:layout_height="1123dp"
+        android:src="@drawable/romance" />
+
+    <TextView
+        android:id="@+id/romance_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis film : Nisekoi (ニセコイ) adalah anime bergenre Comedy, Romance, School, Shounen dan Harem jebolah Shonen Jump, sama seperti Hunter X Hunter, One Piece dan My Hero Academia. Anime ini mengisahkan tentang  hubungan unik antara Ichigo Raku dan Chitoge Kirisaki yang terpaksa pacaran demi menghindari pertikaian antara kedua keluarganya.
+"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
